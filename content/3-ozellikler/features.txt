@@ -1,0 +1,34 @@
+Title: Özellikler
+
+----
+
+Columns: 3
+
+----
+
+Items: 
+
+- 
+  icon: iphone
+  title: Fikir Yarat
+  descr: >
+    Mahalleni geliştirmek için kolayca
+    önerilerini paylaşabilirsin. İstersen
+    bunu anonim olarak yapabilirsin.
+- 
+  icon: person-stalker
+  title: Beğendiğin Fikirleri Destekle
+  descr: >
+    Mahallenin uygulanmasını istediği
+    fikirler öncelikli projeler olarak
+    ilgili kurumlara iletilir.
+- 
+  icon: speakerphone
+  title: Mahallenden Haberdar Ol
+  descr: >
+    Muhtardan ve belediyeden gelen
+    duyurulara kolayca erişebilirsin.
+- 
+  icon: paper-airplane
+  title: Muhtarına Kolayca Ulaş
+  descr: 'Muhtarının ve  ilgili belediye kurumlarının iletişim bilgilerine kolayca ulaşabilirsin.'

@@ -1,0 +1,40 @@
+Title: Hakkımızda
+
+----
+
+Text: 
+
+### Ekibimiz
+**Oytun Emre  Yücel** , Yazılımcı
+**İrem Korkmaz**, Yazılımcı
+**Sera Tolgay**, Siyaset Bilimcisi
+**Ece Ömür**, Şehir Plancısı
+**Daniel Swakman,** Tasarımcı
+<br />
+
+###  Medyada Muhit
+(link: http://www.arkitera.com/haber/23983/mahallem-icin-what-can-i-do-sometimes_ class: u-inlineblock u-mb10 text: 
+**Arkitera**
+*Mahallem için "What Can I Do Sometimes?"*
+<small>14 Ocak 2015</small> 
+)
+(link: http://www.aa.com.tr/en/turkey/469873--new-project-digitizes-turkish-local-democracy class: u-inlineblock text: 
+**Anadolu Agency**
+*New project digitizes Turkish local democracy*
+<small>24 Şubat 2015</small> 
+)
+
+----
+
+Secondtext: 
+
+<div class="panel">
+(icon: ribbon-b size: 3x)
+<p>Muhit, Toplum Gönüllüleri Vakfı'nın sosyal fayda yaratan teknolojik araçları desteklediği Things Challenge'da finale kalan 7 projeden biri oldu. Halk oylamasını kazanarak en çok destek gören 3 proje biri olan Muhit şimdi hayata geçecek. Yapılacak pilot proje hakkındaki gelişmeleri bu siteden takip edebilirsiniz.
+</p>
+(link: http://yourthings.org/en/your-things class: btn popup: yes text: Your Things <i class="ion ion-android-open u-ml10"></i> )
+</div>
+
+----
+
+Layoutwidth: normal
