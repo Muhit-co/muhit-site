@@ -35,7 +35,7 @@
 
     <?php
     // two column layout
-    if(kirbytext($p->secondtext())): 
+    if(kirbytext($p->secondtext()) && kirbytext($p->text())):
     $col = ($p->layoutwidth() == 'small') ? "col-sm-5" : "col-sm-6";
     ?>
     <div class="row">
