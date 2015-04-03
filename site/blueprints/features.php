@@ -17,7 +17,7 @@ fields:
   		4: 3 per row
   		3: 4 per row
   		2: 6 per row
-  items:
+  features:
     label: Features
     type: structure
     entry: >

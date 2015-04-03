@@ -16,26 +16,22 @@
 
     <?php
     // if template is 'features', generate columns from list items
-    if ($p->template() == "features") : 
+    if ($p->template() == "features" || $p->template() == "custom"):
+      include('features.php');
+    endif;
     ?>
-    <div class="row u-aligncenter">
-      <div class="col-sm-12">
-
-        <?php foreach (yaml($p->items()) as $item) : ?>
-        <div class="col-sm-<?php echo $p->columns() ?>">
-          <i class="ion-<?php echo $item[icon] ?> ion-5x"></i>
-          <h4 class="u-mb10"><?php echo $item[title] ?></h4>
-          <?php echo $item[descr] ?>
-        </div>
-        <?php endforeach; ?>
-
-      </div>
-    </div>
-    <?php endif; ?>
 
     <?php
     // two column layout
     if(kirbytext($p->secondtext()) && kirbytext($p->text())):
+    $start_string = "<figure";
+    $end_string = "</figure>";
+    if (
+      substr(kirbytext($p->secondtext()), 0, strlen($start_string)) === $start_string &&
+      substr(kirbytext($p->secondtext()), -strlen($end_string)) === $end_string
+      ) {
+      // it's an image. But I'm not using this functionality now
+    }
     $col = ($p->layoutwidth() == 'small') ? "col-sm-5" : "col-sm-6";
     ?>
     <div class="row">
