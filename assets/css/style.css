@@ -189,7 +189,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 3;
+	z-index: 11;
 	width: 100%;
 	background-color: #44a1e0;
 }
@@ -345,14 +345,14 @@ section#iletisim a:not(.btn):hover {
 
 
 /* --- image slider --- */
-.image-slider {
+/*.image-slider {
 	position: relative;
 	overflow: hidden;
 }
 .image-slider .slides {
 	white-space: nowrap;
 }
-.image-slider img {
+.image-slider figure {
 	position: relative;
 	display: inline-block;
 	margin-right: -0.2em;
@@ -364,6 +364,24 @@ section#iletisim a:not(.btn):hover {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+}*/
+.slidesjs-pagination {
+	text-align: center;
+}
+.slidesjs-pagination li {
+	display: inline-block;
+}
+.slidesjs-pagination li a {
+	display: block;
+	padding: 5px 10px;
+	color: #cccccc;
+}
+.slidesjs-pagination li a:hover,
+.slidesjs-pagination li a:focus {
+	color: inherit;
+}
+.slidesjs-pagination li a.active {
+	color: #44a1e0;
 }
 
 

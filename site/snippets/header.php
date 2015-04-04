@@ -11,17 +11,30 @@
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
 
   <?php
-  // styles
-  echo css('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
-  echo css('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic');
-  echo css('http://fonts.googleapis.com/css?family=Source+Serif+Pro:700,400');
-  echo css('http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css');
+  // checks if not on localhost, then serves assets from CDN
+  $local = strpos($_SERVER['SERVER_NAME'], 'localhost');
+  if($local === false):
+    // styles
+    echo css('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+    echo css('http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css');
+    echo css('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic');
+    echo css('http://fonts.googleapis.com/css?family=Source+Serif+Pro:700,400');
+    // scripts
+    echo js('https://code.jquery.com/jquery-1.11.1.min.js');
+    echo js('https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js');
+    echo js('https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.4/jquery.smooth-scroll.min.js');
+    echo js('https://cdnjs.cloudflare.com/ajax/libs/slidesjs/3.0/jquery.slides.min.js');
+  else:
+    // styles
+    echo css('assets/css/bootstrap.min.css');
+    echo css('assets/css/ionicons.min.css');
+    // scripts
+    echo js('assets/scripts/jquery-1.11.1.min.js');
+    echo js('assets/scripts/jquery.smooth-scroll.min.js');
+    echo js('assets/scripts/jquery.slides.min.js');
+    echo js('assets/scripts/fastclick.min.js');
+  endif;
   echo css('assets/css/style.css');
-  // scripts
-  
-  echo js('https://code.jquery.com/jquery-1.11.1.min.js');
-  echo js('https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js');
-  echo js('https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.4/jquery.smooth-scroll.min.js');
   ?>
 
   <script>
@@ -40,37 +53,26 @@
       $('header').removeClass('isExpanded');
     });
 
-
-    // simple slider functionality
-    // $('.image-slider').each(function() {
-    //   // variables
-    //   $n = 1;
-    //   $nmax = $(this).attr('data-slides');
-    //   $speed = $(this).attr('data-speed')*1000;
-
-    //   // image movement and counter update
-    //   function incrementImage () {
-    //     $('.image-slider img').css('-webkit-transform', 'translateX(-' + (($n-1) * 100) + '%)').css('-moz-transform', 'translateX(-' + (($n-1) * 100) + '%)').css('transform', 'translateX(-' + (($n-1) * 100) + '%)');
-    //     $('.image-slider .image-counter .counter').html($n);
-    //     $n ++;
-    //     if($n > $nmax) { $n = 1 };
-    //   }
-      
-    //   // setting timeout
-    //   function timeout() {
-    //     setTimeout(function () {
-    //       incrementImage();
-    //       timeout();
-    //     }, $speed);
-    //   }
-    //   incrementImage();
-    //   timeout();
-    // });
-
+    // slides.js functionality
+    $('.slides').slidesjs({
+      width: 200,
+      height: 240,
+      play: {
+        interval: $(this).attr('data-interval'),
+        auto: true
+      },
+      navigation: {
+        active: false
+      },
+      pagination: {
+        active: true
+      }
+    });
 
   });
   </script>
 
+  <?php if($local === false): ?>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -81,6 +83,8 @@
     ga('send', 'pageview');
 
   </script>
+  <?php endif; ?>
+
 
 </head>
 <body>

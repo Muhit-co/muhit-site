@@ -10,7 +10,7 @@ language: en
 role: admin
 token: 3a20f3dc4e3c9c613eb896b01ed80ef70bdd9cad
 history:
-  - ozellikler
   - muhit-nedir
+  - ozellikler
   - hakkimizda
   - giris
