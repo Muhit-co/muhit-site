@@ -47,6 +47,9 @@ function defineObjects() {
 
 function placeObjects(canvas) {
 
+  // empty canvas of existing objects
+  canvas.html('');
+
   $.each($objects, function(i) {
 
     // set object styles
