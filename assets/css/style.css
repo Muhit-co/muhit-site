@@ -41,9 +41,6 @@ p {
 	margin: 0 auto;
 	margin-bottom: 0.75em;
 }
-/*h1 + h2, h1 + h3, h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
-	margin-top: 0.75em;
-}*/
 a {
 	color: #44a1e0;
 }
@@ -152,7 +149,9 @@ img {
 .u-inlineblock {
 	display: inline-block;
 }
-
+.u-relative {
+	position: relative;
+}
 
 
 /* --- icons (extends ionicons) --- */
@@ -193,12 +192,25 @@ header {
 	width: 100%;
 	background-color: #44a1e0;
 }
-header .row {
+header .col-xs-12:after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
 	border-bottom: 1px solid #fff;
 }
 header .logo {
 	display: block;
-	padding: 8px 0;
+	padding-top: 13px;
+}
+header .logo h1 {
+	display: inline-block;
+	float: left;
+	margin: 5px 0 0 10px;
+	color: #fff;
+	font-size: 2em;
+	vertical-align: top;
 }
 header .nav-button {
 	display: none;
@@ -211,6 +223,42 @@ header .nav-button {
 header .nav-button .ion-close {
 	display: none;
 	padding: 3px;
+}
+
+
+
+/* --- dnyamic logo --- */
+#dynamic_logo {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 96px;
+	height: 60px;
+	margin-bottom: -1px;
+	cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#dynamic_logo:active {
+	opacity: 0.9;
+}
+#dynamic_logo:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-bottom: 2px solid #fff;
+}
+#dynamic_logo img {
+	height: 100%;
+	-webkit-transition : all 0.5s cubic-bezier(1,0,0,1);
+	-moz-transition : all 0.5s cubic-bezier(1,0,0,1);
+	transition : all 0.5s cubic-bezier(1,0,0,1);
 }
 
 
@@ -247,6 +295,34 @@ nav #menu_action a:hover,
 nav #menu_action a:focus {
 	background-color: #7eb25b;
 	color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+/* --- language switcher --- */
+#language_switcher {
+	position: absolute;
+	top: -30px;
+	right: 10px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0.6;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#language_switcher:hover,
+#language_switcher:focus {
+	opacity: 1;
+}
+#language_switcher a {
+	color: #fff;
+	font-weight: normal;
+}
+#language_switcher a:hover,
+#language_switcher a:focus {
+	border-bottom: 1px solid #fff;
 }
 
 
@@ -398,7 +474,7 @@ footer {
 @media screen and (max-width: 767px) {
 	header .logo {
 		text-align: center;
-		padding: 0 0 10px;
+		padding: 0;
 	}
 	header .nav-button {
 		display: inline-block;
@@ -407,9 +483,6 @@ footer {
 		display: inline-block;
 		float: left;
 		margin-top: 8px;
-	}
-	header .logo img {
-		max-height: 38px;
 	}
 	header.isExpanded .nav-button .ion-close {
 		display: block;

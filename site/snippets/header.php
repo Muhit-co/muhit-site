@@ -35,9 +35,11 @@
     echo js('assets/scripts/fastclick.min.js');
   endif;
   echo css('assets/css/style.css');
+  echo js('assets/scripts/dynamic-logo.js');
   ?>
 
   <script>
+
   $(document).ready(function() {
 
 
@@ -94,7 +96,16 @@
       <div class="col-xs-12">
         <a href="javascript:void()" class="nav-button"><i class="ion-navicon ion-2x"></i><i class="ion-close ion-1.5x"></i></a>
         <?php snippet('menu') ?>
-        <a href="#top" class="logo"><img src="<?php echo url('assets/images/logo.png'); ?>" height="45" alt="" /></a>
+        <a href="#top" class="logo">
+          <div id="dynamic_logo">
+            <img src="<?php echo url('assets/images/logo_stamp.png'); ?>" height="45" alt="" />
+          </div>
+          <script>
+            defineObjects();
+            placeObjects($('#dynamic_logo'));
+          </script>
+          <h1>Muhit</h1>
+        </a>
       </div>
     </div>
   </header>
