@@ -149,7 +149,9 @@ img {
 .u-inlineblock {
 	display: inline-block;
 }
-
+.u-relative {
+	position: relative;
+}
 
 
 /* --- icons (extends ionicons) --- */
@@ -293,6 +295,34 @@ nav #menu_action a:hover,
 nav #menu_action a:focus {
 	background-color: #7eb25b;
 	color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+/* --- language switcher --- */
+#language_switcher {
+	position: absolute;
+	top: -30px;
+	right: 10px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0.6;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#language_switcher:hover,
+#language_switcher:focus {
+	opacity: 1;
+}
+#language_switcher a {
+	color: #fff;
+	font-weight: normal;
+}
+#language_switcher a:hover,
+#language_switcher a:focus {
+	border-bottom: 1px solid #fff;
 }
 
 
