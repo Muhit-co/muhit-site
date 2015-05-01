@@ -10,12 +10,6 @@
   <section <?php echo "id=\"" . $p->slug() . "\""; echo ($p->template() == "action") ? " class=\"action\"" : "" ; ?>>
     <div class="row u-relative">
 
-      <?php
-      if($p === $pages->visible()->first()) {
-        snippet('language_switcher');
-      }
-      ?>
-
       <div class="col-sm-6 col-sm-offset-3 u-aligncenter u-mb10">
         <h6><?php echo html($p->title()); ?></h6>
       </div>

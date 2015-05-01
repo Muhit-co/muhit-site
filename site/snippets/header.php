@@ -109,3 +109,7 @@
       </div>
     </div>
   </header>
+
+  <?php
+  snippet('language_switcher');
+  ?>
