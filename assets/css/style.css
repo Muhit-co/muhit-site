@@ -58,6 +58,9 @@ img {
 	max-width: 100%;
 	max-height: 80vh;
 }
+input:focus {
+	outline: none;
+}
 
 
 
@@ -106,6 +109,7 @@ img {
 }
 
 
+
 /* --- utilities --- */
 .u-alignleft {
 	text-align: left;
@@ -126,6 +130,9 @@ img {
 }
 .u-mb10 {
 	margin-bottom: 10px;
+}
+.u-mb20 {
+	margin-bottom: 20px;
 }
 .u-mt20 {
 	margin-top: 20px;
@@ -162,6 +169,7 @@ img {
 }
 
 
+
 /* --- icons (extends ionicons) --- */
 .ion-after:before {
 	float: right;
@@ -176,6 +184,40 @@ img {
 .ion-fw {
 	width: 1.2em;
 	text-align: center;
+}
+
+
+
+/* --- Forms --- */
+.field-group input {
+	vertical-align: top;
+}
+.field-group input[type="text"],
+.field-group input[type="email"] {
+	max-width: 100%;
+	min-width: 250px;
+	padding: 8px 16px;
+	background-color: rgba(255, 255, 255, 0.9);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: transparent;
+	color: #44a1e0;
+	font-family: 'Source Sans Pro';
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.field-group input[type="text"]:focus,
+.field-group input[type="email"]:focus {
+	background-color: #fff;
+}
+.field-group input[type="submit"] {
+	font-family: "Ionicons";
 }
 
 
