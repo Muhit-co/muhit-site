@@ -261,4 +261,4 @@ kirbytext::$tags['gist'] = array(
   }
 );
 
-include '../site/tags/icon.php';
+include __DIR__ . DS . 'site/tags/icon.php';
