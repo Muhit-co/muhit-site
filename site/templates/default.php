@@ -2,74 +2,61 @@
 
 <main id="top">
 
-	<?php
-  // create loop through all visible pages
-  foreach( $pages->visible() as $p ) :
-  ?>
+  <section class="u-aligncenter">
 
-  <section <?php echo "id=\"" . $p->slug() . "\""; echo ($p->template() == "action") ? " class=\"action\"" : "" ; ?>>
-    <div class="row u-relative">
-
-      <div class="col-sm-6 col-sm-offset-3 u-aligncenter u-mb10">
-        <h6><?php echo html($p->title()); ?></h6>
-      </div>
-    </div>
-
-    <?php
-    // if template is 'features', generate columns from list items
-    if ($p->template() == "features" || $p->template() == "custom"):
-      include('features.php');
-    endif;
-    ?>
-
-    <?php
-    // two column layout
-    if(kirbytext($p->secondtext()) && kirbytext($p->text())):
-    $start_string = "<figure";
-    $end_string = "</figure>";
-    if (
-      substr(kirbytext($p->secondtext()), 0, strlen($start_string)) === $start_string &&
-      substr(kirbytext($p->secondtext()), -strlen($end_string)) === $end_string
-      ) {
-      // it's an image. But I'm not using this functionality now
-    }
-    $col = ($p->layoutwidth() == 'small') ? "col-sm-5" : "col-sm-6";
-    ?>
     <div class="row">
-      <?php echo ($p->layoutwidth() == 'small') ? '<div class="col-sm-1"></div>' : ''; ?>
-      <div class="<?php echo $col; ?>">
-        <p><?php echo kirbytext($p->text()); ?></p>
-      </div>
-      <div class="<?php echo $col; ?>">
-        <p><?php echo kirbytext($p->secondtext()); ?></p>
+      <div class="col-sm-10 col-sm-offset-1 u-alignleft u-mt20">
+        <h3><?php echo $page->title() ?></h3>
       </div>
     </div>
-    <?php 
-    // one column layout
-    else:
-    $col = ($p->layoutwidth() == 'small') ? "col-sm-10 col-sm-offset-1" : "col-sm-12";
-    ?>
-    <div class="row">
-      <div class="<?php echo $col; ?>">
-        <p><?php echo kirbytext($p->text()); ?></p>
-        <p><?php echo kirbytext($p->secondtext()); ?></p>
-      </div>
-    </div>
-    <?php endif; ?>
-
-    <?php if(kirbytext($p->message())): ?>
-      <div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
-          <div class="well u-mt20"><?php echo kirbytext($p->message()); ?></div>
-        </div>
-      </div>
-    <?php endif;?>
 
   </section>
 
-  <?php
-  endforeach;
-  ?>
+  <?php if (strlen($page->text()) > 0): ?>
+  <section>
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+
+        <?php echo kirbytext($page->text()) ?>
+
+      </div>
+    </div>
+
+  </section>
+  <?php endif; ?>
+
+  <?php if (strlen($page->secondtext()) > 0): ?>
+  <section>
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+
+        <?php echo kirbytext($page->secondtext()) ?>
+
+      </div>
+    </div>
+
+  </section>
+  <?php endif; ?>
+
+  <?php if (strlen($page->features()) > 0): ?>
+  <section class="usps">
+    <div class="row u-aligncenter">
+      <div class="col-xs-12">
+
+        <?php foreach (yaml($page->features()) as $feature) : ?>
+        <div class="col-sm-<?php echo $page->columns() ?>">
+          <i class="ion-<?php echo $feature['icon'] ?> ion-5x"></i>
+          <h4 class="u-mb10"><?php echo $feature['title'] ?></h4>
+          <?php echo $feature['descr'] ?>
+        </div>
+        <?php endforeach; ?>
+
+      </div>
+    </div>
+  </section>
+  <?php endif; ?>
 
 </main>
 

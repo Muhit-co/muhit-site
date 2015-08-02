@@ -6,7 +6,10 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <meta property="og:image" content="<?php echo url('assets/images/app-icon.png'); ?>" />
+  <meta property="og:image" content="<?php echo url('assets/images/muhit-logo.png'); ?>" />
+
+  <link href="<?php echo url('assets/images/favicon.ico'); ?>" type="image/x-icon" rel="icon" />
+  <link href="<?php echo url('assets/images/favicon.ico'); ?>" type="image/x-icon" rel="shortcut icon" />
 
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
 
@@ -95,8 +98,9 @@
       <div class="col-xs-12">
         <a href="javascript:void()" class="nav-button"><i class="ion-navicon ion-2x"></i><i class="ion-close ion-1.5x"></i></a>
         <?php snippet('menu') ?>
-        <a href="#top" class="logo">
-          <h1>Muhit</h1>
+        <a href="<?php echo $site->url() ?>" class="logo">
+          <img src="<?php echo url('assets/images/logo.png'); ?>" alt="Muhit" height="30px" class="u-floatleft" />
+          <h3 class="u-floatleft u-mt5 u-ml10 c-white" style="font-weight: 300;">'in hikayesi</h3>
         </a>
       </div>
     </div>

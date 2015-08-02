@@ -21,3 +21,13 @@ fields:
   imgsliderspeed:
     label: Image slider speed (s)
     type:  number
+  headeractions:
+    label: Header actions
+    type: structure
+    fields:
+      text:
+        label: Text
+        type: text
+      url: 
+        label: Link
+        type: url

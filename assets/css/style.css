@@ -149,6 +149,12 @@ input:focus {
 .u-mr20 {
 	margin-right: 10px;
 }
+.u-mt10 {
+	margin-top: 10px;
+}
+.u-mt5 {
+	margin-top: 5px;
+}
 .u-floatleft {
 	display: inline-block;
 	float: left;
@@ -166,6 +172,13 @@ input:focus {
 }
 .u-relative {
 	position: relative;
+}
+
+
+
+/* --- colors --- */
+.c-white {
+	color: white;
 }
 
 
@@ -251,8 +264,8 @@ header .col-xs-12:after {
 	border-bottom: 1px solid #fff;
 }
 header .logo {
-	display: block;
-	padding-top: 13px;
+	display: inline-block;
+	padding-top: 20px;
 }
 header .logo h1 {
 	display: inline-block;
@@ -329,9 +342,12 @@ nav ul a {
 	display: block;
 	width: 100%;
 	height: 100%;
-	padding: 20px;
+	padding: 20px 10px;
 	color: #fff;
-	font-weight: 600;
+	font-weight: 400;
+}
+nav ul a.active {
+	font-weight: 700;
 }
 nav #menu_action a {
 	margin: 12px 2px;
