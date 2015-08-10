@@ -38,43 +38,8 @@
     echo js('assets/scripts/fastclick.min.js');
   endif;
   echo css('assets/css/style.css');
+  echo js('assets/scripts/scripts.js');
   ?>
-
-  <script>
-
-  $(document).ready(function() {
-
-
-    // initiating smooth scroll functionality
-    $('a[href^="#"]').smoothScroll( { afterScroll: function() { location.hash = $(this).attr('href'); } });
-
-
-    // mobile navigation menu functionality
-    $('.nav-button').click(function() {
-      $('header').toggleClass('isExpanded');
-    });
-    $('nav ul a').click(function() {
-      $('header').removeClass('isExpanded');
-    });
-
-    // slides.js functionality
-    $('.slides').slidesjs({
-      width: 200,
-      height: 240,
-      play: {
-        interval: $(this).attr('data-interval'),
-        auto: true
-      },
-      navigation: {
-        active: false
-      },
-      pagination: {
-        active: true
-      }
-    });
-
-  });
-  </script>
 
   <?php if($local === false): ?>
   <script>
@@ -91,21 +56,19 @@
 
 
 </head>
-<body>
+<body class="<?php echo $page->template() ?>">
 
-  <header>
+  <header<?php echo ($page->isHomePage()) ? ' class="isTransparent"' : '' ?>>
     <div class="row">
       <div class="col-xs-12">
-        <a href="javascript:void()" class="nav-button"><i class="ion-navicon ion-2x"></i><i class="ion-close ion-1.5x"></i></a>
+        <a href="javascript:void()" class="nav-button"><i class="ion-navicon ion-2x"></i><i class="ion-android-close ion-15x"></i></a>
         <?php snippet('menu') ?>
         <a href="<?php echo $site->url() ?>" class="logo">
           <img src="<?php echo url('assets/images/logo.png'); ?>" alt="Muhit" height="30px" class="u-floatleft" />
-          <h3 class="u-floatleft u-mt5 u-ml10 c-white" style="font-weight: 300;">'in hikayesi</h3>
+          <h3 class="u-floatleft u-mt5 u-ml10 c-white" style="font-weight: 400;"><span class="extended">'in hikayesi</span></h3>
         </a>
       </div>
     </div>
   </header>
 
-  <?php
-  snippet('language_switcher');
-  ?>
+  <?php snippet('language_switcher'); ?>

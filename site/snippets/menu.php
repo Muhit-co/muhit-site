@@ -1,6 +1,9 @@
 <nav>
 
-  <ul id="menu" class="clearfix">
+  <ul id="menu" class="u-floatleft clearfix">
+    <li>
+      <a href="<?php echo ($page->isHomePage()) ? '#muhit-nedir' : $site->url(); ?>">Muhit Nedir?</a>
+    </li>
     <?php 
     // loop through 'action' menu pages
     foreach($pages->visible() as $p): 
@@ -11,13 +14,12 @@
     </li>
     <?php endif; endforeach; ?>
   </ul>
-
-
+  
   <?php if (strlen($site->headeractions()) > 0): ?>
-  <ul id="menu_action" class="clearfix">
+  <ul id="menu_action" class="u-floatleft clearfix">
     <?php foreach (yaml($site->headeractions()) as $action) : ?>
       <li>
-        <a href="<?php echo $action['url'] ?>" target="_blank">
+        <a href="<?php echo $action['url'] ?>">
           <?php echo $action['text'] ?>
         </a>
       </li>

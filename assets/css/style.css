@@ -38,7 +38,6 @@ p {
 	font-family: 'Source Serif Pro';
 	font-size: 1.1em;
 	max-width: 35em;
-	margin: 0 auto;
 	margin-bottom: 0.75em;
 }
 a {
@@ -84,6 +83,14 @@ input:focus {
 	background-color: #7eb25b;
 	color: rgba(255, 255, 255, 0.9);
 	border-color: transparent;
+}
+.btn-blue {
+	background: #44a1e0;
+	color: #fff;
+}
+.btn-blue:hover {
+	background: #245672;
+	color: #fff;
 }
 .btn-outline {
 	background: none;
@@ -134,8 +141,23 @@ input:focus {
 .u-mb20 {
 	margin-bottom: 20px;
 }
+.u-mt5 {
+	margin-top: 5px;
+}
+.u-mt10 {
+	margin-top: 10px;
+}
 .u-mt20 {
 	margin-top: 20px;
+}
+.u-mt30 {
+	margin-top: 30px;
+}
+.u-mt40 {
+	margin-top: 40px;
+}
+.u-ml5 {
+	margin-left: 5px;
 }
 .u-ml10 {
 	margin-left: 10px;
@@ -147,13 +169,19 @@ input:focus {
 	margin-right: 10px;
 }
 .u-mr20 {
-	margin-right: 10px;
+	margin-right: 20px;
 }
-.u-mt10 {
-	margin-top: 10px;
+.u-pv10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-.u-mt5 {
-	margin-top: 5px;
+.u-pv20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.u-pv40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .u-floatleft {
 	display: inline-block;
@@ -172,6 +200,10 @@ input:focus {
 }
 .u-relative {
 	position: relative;
+}
+.u-pinnedbottom {
+	position: absolute;
+	bottom: 0;
 }
 
 
@@ -254,6 +286,18 @@ header {
 	z-index: 11;
 	width: 100%;
 	background-color: #44a1e0;
+	-webkit-transition: background-color 0.3s ease;
+	-moz-transition: background-color 0.3s ease;
+	transition: background-color 0.3s ease;
+}
+header.isTransparent {
+	background-color: transparent;
+  background-repeat: repeat-x;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(rgba(36, 86, 114, 0.25)));
+  background: -webkit-linear-gradient(top, rgba(36, 86, 114, 0.25), transparent);
+  background: -moz-linear-gradient(top, rgba(36, 86, 114, 0.25), transparent);
+  background: -ms-linear-gradient(top, rgba(36, 86, 114, 0.25), transparent);
+  background: -o-linear-gradient(top, rgba(36, 86, 114, 0.25), transparent);
 }
 header .col-xs-12:after {
 	content: "";
@@ -261,11 +305,11 @@ header .col-xs-12:after {
 	top: 100%;
 	left: 0;
 	width: 100%;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.75);
 }
 header .logo {
 	display: inline-block;
-	padding-top: 20px;
+	padding-top: 18px;
 }
 header .logo h1 {
 	display: inline-block;
@@ -280,48 +324,13 @@ header .nav-button {
 	float: left;
 	width: 32px;
 	color: rgba(255, 255, 255, 0.75);
-	padding: 15px 0;
+	padding: 18px 0 12px;
 	padding-right: 10px;
+	text-align: center;
 }
-header .nav-button .ion-close {
+header .nav-button .ion-android-close {
 	display: none;
-	padding: 3px;
-}
-
-
-
-/* --- dnyamic logo --- */
-#dynamic_logo {
-	position: relative;
-	display: inline-block;
-	float: left;
-	width: 96px;
-	height: 60px;
-	margin-bottom: -1px;
-	cursor: pointer;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-#dynamic_logo:active {
-	opacity: 0.9;
-}
-#dynamic_logo:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	border-bottom: 2px solid #fff;
-}
-#dynamic_logo img {
-	height: 100%;
-	-webkit-transition : all 0.5s cubic-bezier(1,0,0,1);
-	-moz-transition : all 0.5s cubic-bezier(1,0,0,1);
-	transition : all 0.5s cubic-bezier(1,0,0,1);
+	margin-top: 5px;
 }
 
 
@@ -345,12 +354,16 @@ nav ul a {
 	padding: 20px 10px;
 	color: #fff;
 	font-weight: 400;
+	line-height: 30px;
 }
 nav ul a.active {
 	font-weight: 700;
 }
+nav ul a.active:hover {
+	color: #fff;
+}
 nav #menu_action a {
-	margin: 12px 2px;
+	margin: 14px 2px;
 	padding: 8px 16px;
 	background-color: #98ca7a;
 	-webkit-border-radius: 5px;
@@ -373,8 +386,10 @@ nav #menu_action a:focus {
 	width: 100%;
 	color: #fff;
 	font-weight: bold;
+	font-size: 0.9em;
 	text-transform: uppercase;
-	opacity: 0.6;
+	opacity: 0.8;
+	z-index: 10;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	transition: all 0.3s ease;
@@ -411,7 +426,7 @@ nav #menu_action a:focus {
 
 
 /* --- content --- */
-section:first-child {
+#intro {
 	max-height: 80vh;
 	padding-top: 16vh;
 	background: url('../images/banner_city.png') no-repeat bottom;
@@ -419,17 +434,18 @@ section:first-child {
 	background-color: #44a1e0;
 	color: #fff;
 }
-section:first-child h6 {
+#intro h6 {
 	display: none;
 }
-section:first-child h1 {
+#intro h1 {
 	font-size: 2.5em;
 	margin-top: 1em;
 	margin-bottom: 5vh;
 }
-section:first-child h3 {
-	font-weight: normal;
+#intro h3 {
+	font-weight: 600;
 	font-size: 1.5em;
+	line-height: 1.5em;
 }
 section:nth-child(3) {
 	background-color: #f0f0f7;
@@ -442,6 +458,15 @@ section:nth-child(5) {
 }
 section:nth-child(6) {
 	background-color: #d7d7de;
+}
+.home #intro {
+	min-height: 600px;
+	min-height: 80vh;
+	padding: 15vh 0;
+	background-color: #44a1e0;
+	background-size: cover;
+	background-position: center 15%;
+	background-attachment: fixed;
 }
 
 
@@ -538,10 +563,23 @@ footer {
 
 
 /* --- media queries --- */
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+	.extended {
+		display: none;
+	}
+	nav ul a {
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 0.9em;
+	}
+}
 @media screen and (max-width: 767px) {
+	.extended {
+		display: none;
+	}
 	header .logo {
 		text-align: center;
-		padding: 0;
+		padding: 10px;
 	}
 	header .nav-button {
 		display: inline-block;
@@ -549,9 +587,9 @@ footer {
 	header .logo {
 		display: inline-block;
 		float: left;
-		margin-top: 8px;
+		margin-top: 10px;
 	}
-	header.isExpanded .nav-button .ion-close {
+	header.isExpanded .nav-button .ion-android-close {
 		display: block;
 	}
 	header.isExpanded .nav-button .ion-navicon {
@@ -577,13 +615,17 @@ footer {
 	header.isExpanded #menu {
 		display: block;
 	}
+	nav #menu_action {
+		float: right;
+	}
 	nav #menu_action a {
-		padding: 6px 10px;
+		margin: 15px 0;
+		padding: 7px 10px;
 	}
 	nav ul a {
 		padding: 10px 10px;
 	}
-	section:first-child {
+	#intro {
 		max-height: inherit;
 	}
 }
