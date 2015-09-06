@@ -8,10 +8,9 @@ password: >
   $2a$10$We8M703kf/V0GIXX4cIMt.qN7Rjs/Vc54t57QH4epkeEfXw1.F5Zu
 language: en
 role: admin
-token: ae59f64b8a6a592e1c781cd40c88943cc78b2749
+token: 03b72e73d966b709dbc6d984a2fc6059d9acb104
 history:
+  - home
   - nasil-calisiyor
   - manifestomuz
   - home
-  - muhit-nedir
-  - null

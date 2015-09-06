@@ -10,11 +10,10 @@
   <section id="intro" class="u-relative" <?php echo $style ?>>
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 u-aligncenter u-mt40">
-        <div class="c-white"><?php echo kirbytext($page->introtext()); ?></div>
+        <div class="c-white">
+          <?php echo $page->introtext()->kirbytext(); ?>
+        </div>
       </div>
-      <!-- <div class="col-md-4 col-md-pull-7 u-pinnedbottom">
-        <?php echo ($img = $page->image('iphone-mockup.png')) ? '<img src="' . $img->url() . '" alt="" />' : ''; ?>
-      </div> -->
     </div>
   </section>
 

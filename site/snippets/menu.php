@@ -2,7 +2,7 @@
 
   <ul id="menu" class="u-floatleft clearfix">
     <li>
-      <a href="<?php echo ($page->isHomePage()) ? '#muhit-nedir' : $site->url(); ?>">Muhit Nedir?</a>
+      <a href="<?php echo ($page->isHomePage()) ? '#muhit-nedir' : $site->url() . '#muhit-nedir'; ?>">Muhit Nedir?</a>
     </li>
     <?php 
     // loop through 'action' menu pages
