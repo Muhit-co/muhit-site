@@ -11,7 +11,7 @@
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 u-aligncenter u-mt40">
         <div class="c-white">
-          <?php echo $page->introtext()->kirbytext(); ?>
+          <?php echo $page->blurb()->kirbytext(); ?>
         </div>
       </div>
     </div>

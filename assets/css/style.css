@@ -37,7 +37,7 @@ h6 {
 p {
 	font-family: 'Source Serif Pro';
 	font-size: 1.1em;
-	max-width: 35em;
+	/*max-width: 35em;*/
 	margin-bottom: 0.75em;
 }
 a {
@@ -204,6 +204,9 @@ input:focus {
 .u-pinnedbottom {
 	position: absolute;
 	bottom: 0;
+}
+.u-maxWidth300 {
+	max-width: 300px;
 }
 
 

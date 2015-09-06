@@ -10,10 +10,6 @@ fields:
     label: Cover image
     type: select
     options: images
-  introtext:
-    label: Intro Text
-    type:  textarea
-    size:  large
   features:
     label: Features
     type: structure
@@ -45,3 +41,8 @@ fields:
     label: Secondary Text
     type:  textarea
     size:  large
+  blurb:
+    label: Intro text
+    type: textarea
+    size: large
+    

@@ -13,4 +13,3 @@ history:
   - home
   - nasil-calisiyor
   - manifestomuz
-  - home

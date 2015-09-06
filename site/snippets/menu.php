@@ -1,9 +1,9 @@
 <nav>
 
   <ul id="menu" class="u-floatleft clearfix">
-    <li>
+    <!-- <li>
       <a href="<?php echo ($page->isHomePage()) ? '#muhit-nedir' : $site->url() . '#muhit-nedir'; ?>">Muhit Nedir?</a>
-    </li>
+    </li> -->
     <?php 
     // loop through 'action' menu pages
     foreach($pages->visible() as $p): 
