@@ -14,8 +14,8 @@ $(document).ready(function() {
 
   // slides.js functionality
   $('.slides').slidesjs({
-    width: 200,
-    height: 240,
+    width: 300,
+    height: 150,
     play: {
       interval: $(this).attr('data-interval'),
       auto: true
