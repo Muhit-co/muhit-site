@@ -42,6 +42,10 @@
   <?php snippet('nextpage'); ?>
 
   <section id="iletisim">
+    <h3><?php echo l::get('updates') ?></h3>
+    <p>
+      <?php echo l::get('want_to_stay_in_the_loop') ?>
+    </p>
     <?php snippet('mailchimp_form'); ?>
   </section>
 

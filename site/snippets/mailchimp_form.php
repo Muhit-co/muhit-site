@@ -11,7 +11,7 @@
 
       <div class="field-group">
         <label for="mce-EMAIL"></label>
-        <input type="email" value="" name="EMAIL" class="required email u-mr10" id="mce-EMAIL" placeholder="Email Address">
+        <input type="email" value="" name="EMAIL" class="required email u-mr10" id="mce-EMAIL" placeholder="<?php echo l::get('email') ?>">
         <input type="submit" value="&#62147;" name="subscribe" id="mc-embedded-subscribe" class="btn">
       </div>
 
