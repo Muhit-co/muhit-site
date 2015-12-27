@@ -93,6 +93,15 @@ input:focus {
 	background: #245672;
 	color: #fff;
 }
+.btn-white {
+	background: #fff;
+	color: #44a1e0;
+}
+.btn-white:hover,
+.btn-white:focus {
+	background: #44a1e0;
+	color: #fff;
+}
 .btn-outline {
 	background: none;
 	border: 1px solid #fff;

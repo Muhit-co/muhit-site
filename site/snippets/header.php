@@ -65,7 +65,7 @@
         <?php snippet('menu') ?>
         <a href="<?php echo $site->url() ?>" class="logo">
           <img src="<?php echo url('assets/images/logo.png'); ?>" alt="Muhit" height="30px" class="u-floatleft" />
-          <h3 class="u-floatleft u-mt5 u-ml10 c-white" style="font-weight: 400;"><span class="extended">'in hikayesi</span></h3>
+          <h3 class="u-floatleft u-mt5 u-ml10 c-white" style="font-weight: 400;"><span class="extended"><?php echo l::get('story') ?></span></h3>
         </a>
       </div>
     </div>
