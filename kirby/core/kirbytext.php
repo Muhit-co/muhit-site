@@ -43,15 +43,18 @@ abstract class KirbytextAbstract {
       $text = call_user_func_array($filter, array($this, $text));
     }
 
-    // tags
-    $text = preg_replace_callback('!\((([^()]*|(?R))*)\)!', array($this, 'tag'), $text);
+    // tagsify
+    $text = preg_replace_callback('!(?=[^\]])\([a-z0-9_-]+:.*?\)!is', array($this, 'tag'), $text);
 
     // markdownify
-    $text = markdown($text);
+    if(kirby()->option('markdown')) {
+      $text = call(kirby::instance()->option('markdown.parser'), $text);
+    }
 
-    // smartypants
+    // smartypantsify
     if(kirby()->option('smartypants')) {
-      $text = smartypants($text);
+      $text = str_replace('&quot;', '"', $text);
+      $text = call(kirby::instance()->option('smartypants.parser'), $text);
     }
 
     // post filters
@@ -65,18 +68,9 @@ abstract class KirbytextAbstract {
 
   public function tag($input) {
 
-    // stop on escaped tags
-    if(substr($input[1], 0, 1) == '\\') return $input[0];
-
     // remove the brackets
-    $tag   = trim($input[1]);
-    $colon = strpos($tag, ':');
-
-    // stop on invalid tags
-    if(!$colon) return $input[0];
-
-    // fetch the tagname
-    $name = trim(substr($tag, 0, $colon));
+    $tag  = trim(rtrim(ltrim($input[0], '('), ')'));
+    $name = trim(substr($tag, 0, strpos($tag, ':')));
 
     // if the tag is not installed return the entire string
     if(!isset(static::$tags[$name])) return $input[0];

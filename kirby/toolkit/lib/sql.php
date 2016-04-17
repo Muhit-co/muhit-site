@@ -14,7 +14,7 @@
 class Sql {
 
   // list of literals which should not be escaped in queries
-  protected $literals = array('NOW()');
+  protected $literals = array('NOW()', null);
 
   // the parent db connection
   protected $db;
@@ -185,8 +185,8 @@ class Sql {
       $output = array();
 
       foreach($values AS $key => $value) {
-        if(in_array($value, $this->literals)) {
-          $output[] = $key . ' = ' . $value;
+        if(in_array($value, $this->literals, true)) {
+          $output[] = $key . ' = ' . (($value === null)? 'null' : $value);
         } elseif(is_array($value)) {
           $output[] = $key . " = '" . json_encode($value) . "'";
         } else {
@@ -203,8 +203,8 @@ class Sql {
 
       foreach($values AS $key => $value) {
         $fields[] = $key;
-        if(in_array($value, $this->literals)) {
-          $output[] = $value;
+        if(in_array($value, $this->literals, true)) {
+          $output[] = ($value === null)? 'null' : $value;
         } elseif(is_array($value)) {
           $output[] = "'" . $this->db->escape(json_encode($value)) . "'";
         } else {
@@ -225,7 +225,7 @@ class Sql {
    * @return string
    */
   public function dropTable($table) {
-    return 'DROP TABLE "' . $table . '"';
+    return 'DROP TABLE `' . $table . '`';
   }
 
   /**
@@ -234,7 +234,6 @@ class Sql {
    * @todo  add more options per column
    * @param string $table The table name
    * @param array $columns
-   * @param string $type mysql or sqlite
    * @return string
    */
   public function createTable($table, $columns = array()) {
@@ -283,13 +282,13 @@ class Sql {
 
       $defaultValue = null;
       if(isset($column['default'])) {
-        $defaultValue = is_integer($column['default']) ? $column['default'] : '"' . $column['default'] . '"';
+        $defaultValue = is_integer($column['default']) ? $column['default'] : "'" . $column['default'] . "'";
       }
 
       $output[] = trim(str::template($template[$type], array(
         'column.name'    => $name,
         'column.null'    => r(a::get($column, 'null') === false, 'NOT NULL', 'NULL'),
-        'column.key'     => r($key and $key != 'INDEX', $key, false),
+        'column.key'     => r($key && $key != 'INDEX', $key, false),
         'column.default' => r(!is_null($defaultValue), 'DEFAULT ' . $defaultValue),
       )));
 

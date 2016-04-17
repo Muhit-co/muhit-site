@@ -1,5 +1,7 @@
 <?php
 
+use Kirby\Panel;
+
 define('DS', DIRECTORY_SEPARATOR);
 
 // fetch the site's index directory
@@ -30,8 +32,24 @@ if(!isset($kirby->roots->index)) {
   $kirby->roots->index = $index;
 }
 
-// create the panel object
-$panel = new Panel($kirby, __DIR__);
+// the default avatar directory
+if(!isset($kirby->roots->avatars)) {
+  $kirby->roots->avatars = $index . DS . 'assets' . DS . 'avatars';
+}
 
-// launch the panel
-echo $panel->launch();
+// the default thumbs directory
+if(!isset($kirby->roots->thumbs)) {
+  $kirby->roots->thumbs = $index . DS . 'thumbs';
+}
+
+try {
+
+  // create the panel object
+  $panel = new Panel($kirby, __DIR__);  
+
+  // launch the panel
+  echo $panel->launch();
+
+} catch(Exception $e) {
+  echo Panel::fatal($e, __DIR__);
+}
