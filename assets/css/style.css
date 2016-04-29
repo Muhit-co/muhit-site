@@ -223,7 +223,37 @@ input:focus {
 
 /* --- colors --- */
 .c-white {
-	color: white;
+	color: #fff;
+}
+.c-greyLightest {
+	color: #f9f9f9;
+}
+.c-greyLighter {
+	color: #eeeeee;
+}
+.c-greyLight {
+	color: #ccccdd;
+}
+.c-grey {
+	color: #9999aa;
+}
+.c-greyDark {
+	color: #666677;
+}
+.c-black {
+	color: #333344;
+}
+.c-muhitBlue {
+	color: #44a1e0;
+}
+.c-muhitBlueMedium {
+	color: #4390c0;
+}
+.c-muhitBlueDark {
+	color: #245672;
+}
+.c-muhitGreen {
+	color: #98ca7a;
 }
 
 
