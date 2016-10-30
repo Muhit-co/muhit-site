@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Section
+title: Page
 pages: false
 files: true
 fields:
