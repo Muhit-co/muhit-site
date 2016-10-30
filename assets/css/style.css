@@ -218,6 +218,9 @@ input:focus {
 .u-maxWidth300 {
 	max-width: 300px;
 }
+.u-border {
+	border: 1px solid #ccccdd;
+}
 
 
 
