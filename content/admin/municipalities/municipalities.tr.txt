@@ -4,4 +4,5 @@ Title: Municipality Info
 
 Text: 
 
-There you have it, can you believe it; a searchable list of municipalities and their info
+There you have it, can you believe it; a searchable list of municipalities and their info.
+*(data source: (link: https://github.com/wemrekurt/il-ilceler-json text: il-ilceler-json by wemrekurt popup:yes))*

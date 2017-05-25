@@ -10,8 +10,8 @@ language: en
 role: admin
 token: 0a91022c11b68b19011ed76b87d57e5918c1aa23
 history:
+  - admin/municipalities
   - medyada
   - hakkimizda
   - iletisim
   - home
-  - nasil-calisiyor

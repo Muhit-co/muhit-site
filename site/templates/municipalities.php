@@ -1,15 +1,5 @@
 <? snippet('header') ?>
 
-<style>
-  #list_municipalities .card {
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-</style>
-
 <main id="top" style="min-height: calc(100vh - 254px); padding-top: 74px;">
 
   <div class="row">

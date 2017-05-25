@@ -215,6 +215,11 @@ input:focus {
 	position: absolute;
 	bottom: 0;
 }
+.u-pinnedtopright {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 .u-maxWidth300 {
 	max-width: 300px;
 }
@@ -310,13 +315,20 @@ input:focus {
 .field-group input[type="submit"] {
 	font-family: "Ionicons";
 }
+.field-group.field-group--grey input {
+	background-color: #f9f9f9;
+}
+.field-group.field-group--grey input:focus {
+	background-color: #eee;
+}
 
 
 
 /* --- layout --- */
 .row {
 	max-width: 1000px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 section, footer {
 	padding: 100px 0;
