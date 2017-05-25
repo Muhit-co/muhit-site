@@ -1,0 +1,52 @@
+Title: Home
+
+----
+
+Coverimage: home-banner.jpg
+
+----
+
+Features: 
+
+- 
+  icon: iphone
+  title: Fikir Yarat
+  descr: >
+    Mahalleni geliştirmek için kolayca
+    önerilerini paylaşabilirsin. İstersen
+    bunu anonim olarak yapabilirsin.
+- 
+  icon: person-stalker
+  title: Komşunu Destekle
+  descr: >
+    Mahallenin uygulanmasını istediği
+    fikirler öncelikli projeler olarak
+    ilgili kurumlara iletilir.
+- 
+  icon: speakerphone
+  title: Yerel Yönetimlere Raporlanır
+  descr: >
+    Popüler fikirler ve ortak sorunlar
+    ilçe belediyelerine raporlanır
+
+----
+
+Columns: 4
+
+----
+
+Secondtext: 
+
+<div class="u-aligncenter" style="margin-bottom: -100px;">
+<h2><i>Muhit, yerel yönetimlerin daha şeffaf ve katılımcı olması için geliştirdiğimiz bir uygulama.</i></h2>
+<br><br>
+(image: idea-list.png)
+</div>
+
+----
+
+Blurb: 
+
+### Muhit, mahallelilerin ve yerel yönetimlerin yaşadıkları yerleri iyileştirmek için iletişim kurmasını ve çözüm üretmesini sağlayan bir platformdur.
+<br />
+<div><a href="#muhit-nedir" class="btn btn-lg btn-outline u-mr20 u-mv10">Daha Fazla Bilgi<i class="ion ion-arrow-down-c u-ml10"></i></a><a href="https://youtu.be/ypx3m4BiPSQ" target="_blank" class="btn btn-lg btn-white u-mr20 u-mv10">Videoyu İzle <i class="ion ion-social-youtube u-ml10"></i></a><a href="http://www.muhit.co" target="_blank" class="btn btn-lg btn-primary u-mr20 u-mv10">Fikirlere Git<i class="ion ion-arrow-right-c u-ml10"></i></a></div>

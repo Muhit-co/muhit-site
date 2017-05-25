@@ -1,0 +1,49 @@
+Title: Home
+
+----
+
+Coverimage: home-banner.jpg
+
+----
+
+Features: 
+
+- 
+  icon: iphone
+  title: Submit your ideas
+  descr: >
+    You can easily share your ideas to
+    improve your neighbourhood; if you
+    prefer also anonymously
+- 
+  icon: person-stalker
+  title: Support your neighbor
+  descr: >
+    Popular ideas will be taken into
+    consideration by the local goverments
+- 
+  icon: speakerphone
+  title: Report to your local government
+  descr: "Periodic reports of popular issues and themes are sent to your district's municipality"
+
+----
+
+Columns: 4
+
+----
+
+Secondtext: 
+
+<div class="u-aligncenter" style="margin-bottom: -100px;">
+<h2><i>Muhit is an application for more transparency and participation in local governance.</i></h2>
+<br><br>
+(image: idea-list.png)
+</div>
+
+----
+
+Blurb: 
+
+### Muhit is an online platform allowing citizens and municipalities to collaboratively improve their living environment.
+<br />
+<div><a href="#muhit-nedir" class="btn btn-lg btn-outline u-mr20 u-mv10">Find out more <i class="ion ion-arrow-down-c u-ml10"></i></a><a href="https://youtu.be/ypx3m4BiPSQ" target="_blank" class="btn btn-lg btn-white u-mr20 u-mv10">Watch the video <i class="ion ion-social-youtube u-ml10"></i></a><a href="http://www.muhit.co" target="_blank" class="btn btn-lg btn-primary u-mr20 u-mv10">Go to ideas <i class="ion ion-arrow-right-c u-ml10"></i></a></div>

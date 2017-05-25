@@ -1,0 +1,39 @@
+Title: Fikir Haritaları
+
+----
+
+Text: 
+
+<div id="istanbul"></div>
+### İstanbul
+(image: istanbul.png)
+Popüler ilçeler: (link: http://muhit.co/fikirler?district=Kad%C4%B1k%C3%B6y%2C+%C4%B0stanbul&sort=map text: Kadıköy), (link: http://muhit.co/fikirler?district=Be%C5%9Fikta%C5%9F%2C+%C4%B0stanbul&sort=map text: Beşiktaş), (link: http://muhit.co/fikirler?district=%C5%9Ei%C5%9Fli%2C+%C4%B0stanbul&sort=map text: Şişli), (link: http://muhit.co/fikirler?district=Beyo%C4%9Flu%2C+%C4%B0stanbul&sort=map text: Beyoğlu)
+
+<br><br>
+<div id="eskisehir"></div>
+### Eskişehir
+(image: eskisehir.png)
+Popüler ilçeler: (link: http://muhit.co/fikirler?district=Tepeba%C5%9F%C4%B1%2C+Eski%C5%9Fehir&sort=map text: Tepebaşı), (link: http://muhit.co/fikirler?district=Odunpazar%C4%B1%2C+Eski%C5%9Fehir&sort=map text: Odunpazarı)
+
+<br><br>
+<div id="izmir"></div>
+### İzmir
+(image: izmir.png)
+Popüler ilçeler: (link: http://muhit.co/fikirler?district=Kar%C5%9F%C4%B1yaka%2C+%C4%B0zmir&sort=map text: Karşıyaka)
+
+<br><br>
+<div id="ankara"></div>
+### Ankara
+(image: ankara.png)
+
+
+<br>
+21 Mart 2017
+
+----
+
+Secondtext: 
+
+----
+
+Layoutwidth: normal

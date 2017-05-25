@@ -1,0 +1,29 @@
+Title: MUHİT
+
+----
+
+Author: Sera Tolgay, L Daniel Swakman, Ece Ömür, Güney Can Gökoğlu
+
+----
+
+Description: Muhit, mahallelilerin ve yerel yönetimlerin yaşadıkları yerleri iyileştirmek için iletişim kurmasını ve çözüm üretmesini sağlayan bir platformdur.
+
+----
+
+Keywords: muhit,mahalle,yerel yonetim,muhtar,belediye,iyilestirmek,fikir,fikirler,harita,kent,sehir
+
+----
+
+Copyright: <p  style="max-width: 100%;">(link: http://ldaniel.eu text: ldaniel.eu popup: yes) tarafından (link: http://getkirby.com text: Kirby popup: yes) ile yapıldı</p>
+
+----
+
+Imgsliderspeed: 5
+
+----
+
+Headeractions: 
+
+- 
+  text: Fikirlere git
+  url: http://www.muhit.co/

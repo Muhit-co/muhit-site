@@ -1,0 +1,29 @@
+Title: MUHIT
+
+----
+
+Author: Sera Tolgay, L Daniel Swakman, Ece Ömür, Güney Can Gökoğlu
+
+----
+
+Description: Muhit is an online platform allowing citizens and municipalities to collaboratively improve their living environment.
+
+----
+
+Keywords: muhitmahalle,yerel yonetim,muhtar,belediye,iyilestirmek,fikir,fikirler,harita,kent,sehir
+
+----
+
+Copyright: <p  style="max-width: 100%;">Built by (link: http://ldaniel.eu text: ldaniel.eu popup: yes) with (link: http://getkirby.com text: Kirby popup: yes)</p>
+
+----
+
+Imgsliderspeed: 5
+
+----
+
+Headeractions: 
+
+- 
+  text: Go to ideas
+  url: http://www.muhit.co/?lang=en

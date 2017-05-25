@@ -1,0 +1,33 @@
+Title: How does it work?
+
+----
+
+Text: 
+
+<i class="ion ion-iphone ion-3x u-floatleft ion-fw u-mr10 u-mb20"></i>
+<h4>Submit Your Ideas</h4>
+<p class="u-mb20">You can easily share your ideas to improve your neighbourhood and also have the option to be anonymous.</p>
+
+<i class="ion ion-person-stalker ion-3x u-floatleft ion-fw u-mr10"></i>
+<h4>Support the Ideas You Like</h4>
+<p class="u-mb20">The ideas that receive support from neighborhood residents are forwarded to appropriate agencies as priority projects.</p>
+
+<i class="ion ion-speakerphone ion-3x u-floatleft ion-fw u-mr10"></i>
+<h4>Keep Updated</h4>
+<p class="u-mb20">You can easily view announcements from your muhtar and district municipality.</p>
+
+<i class="ion ion-paper-airplane ion-3x u-floatleft ion-fw u-mr10"></i>
+<h4>Reach Your Representative</h4>
+<p class="u-mb20">You can easily access the contact information of your muhtar and appropriate government agencies.</p>
+
+----
+
+Secondtext: 
+
+<div class="u-aligncenter">
+(image: muhit-system-diagram.png)
+</div>
+
+----
+
+Layoutwidth: normal

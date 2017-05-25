@@ -1,0 +1,44 @@
+Title: Hakkımızda
+
+----
+
+Text: 
+
+### Ekibimiz
+Muhit, katılımcı şehircilik ve yerelliği temel alan bağımsız bir platform. Farklı disiplinleri bir araya getiren ekibimiz, şehir plancıları, tasarımcılar ve yazılımcılardan oluşuyor. 
+
+**Sera Tolgay** *(Massachusetts Institute of Technology) – Kurucu / İş Geliştirme* <a href="https://tr.linkedin.com/pub/sera-tolgay/52/631/225" target="_blank"><i class="ion ion-social-linkedin u-ml5"></i></a>
+**Daniel Swakman** *(Delft University of Technology) – Kurucu / Tasarımcı* <a href="http://linkedin.com/in/ldanielswakman" target="_blank"><i class="ion ion-social-linkedin u-ml5"></i></a> <a href="http://www.ldaniel.eu" target="_blank"><i class="ion ion-link u-ml5"></i></a> <a href="https://twitter.com/ldanielswakman" target="_blank"><i class="ion ion-social-twitter u-ml5"></i></a>
+**Güney Can Gökoğlu** *(Anadolu Üniversitesi) – Yazılımcı* <a href="https://tr.linkedin.com/in/guneycan" target="_blank"><i class="ion ion-social-linkedin u-ml5"></i></a> <a href="https://twitter.com/gcg" target="_blank"><i class="ion ion-social-twitter u-ml5"></i></a> 
+**Gizem Çele Ocal** * (Bilgi Üniversitesi / University of Exeter) – İletişim* <a href="https://tr.linkedin.com/in/gizem-cele-ocal-7699b718" target="_blank"><i class="ion ion-social-linkedin u-ml5"></i></a> <a href="https://twitter.com/gizemcele" target="_blank"><i class="ion ion-social-twitter u-ml5"></i></a> 
+**Tekant Gündoğan** *(Boğaziçi Üniversitesi) – Yazılımcı* (link: https://www.linkedin.com/in/tekantgundogan text: <i class="ion ion-social-linkedin u-ml5"></i> popup: yes)
+**Gülsen Geçim** *(Koç Üniversitesi) – İletişim* (link: https://www.linkedin.com/in/gulsengecim text: <i class="ion ion-social-linkedin u-ml5"></i> popup: yes)
+<!-- **Ersoy Pembe** *(Koç Üniversitesi) – Yazılımcı* <a href="https://tr.linkedin.com/in/ersoy-pembe-1aa96520" target="_blank"><i class="ion ion-social-linkedin u-ml5"></i></a> -->
+<br />
+
+----
+
+Secondtext: 
+
+<div class="panel">
+<div class="u-floatright">(image: mit_ideas_logo.png class: u-mt10)</div>
+(icon: ribbon-a size: 3x) 
+<div class="u-inlineblock u-ml20 u-mt20 u-mb20"><h4 style="margin-bottom: 0;">MIT Ideas Global Challenge</h4><span style="opacity: 0.5">Nisan 2016</span></div>
+
+<p>Nisan 2016'da Muhit MIT Ideas Global Challenge'a katıldı ve kazandık! Etraflarındaki dünyayı iyileştirmek için tutkuyla yaşayan  insanlardan aldığımız olumlu geri bildirimler  ve projemizi geliştirmek amacıyla kullanacağımız ödül için çok mutluyuz.</p>
+(link: http://globalchallenge.mit.edu/teams/view/655 class: btn btn-blue popup: yes text: Muhit MIT Ideas'te <i class="ion ion-android-open u-ml10"></i> )
+</div>
+
+<div class="panel" style="background-color: #4390c0">
+<div class="u-floatright">(image: things_logo.png class: u-mt10)</div>
+(icon: ribbon-b size: 3x)
+ <div class="u-inlineblock u-ml20 u-mt20 u-mb20"><h4 style="margin-bottom: 0;">Things Challenge</h4><span style="opacity: 0.5">Ocak 2015</span></div>
+
+<p>Muhit, Toplum Gönüllüleri Vakfı'nın sosyal fayda yaratan teknolojik araçları desteklediği Things Challenge'da finale kalan 6 projeden biri oldu. Halk oylamasını kazanarak en çok destek gören 3 projeden biri olan Muhit şimdi hayata geçiyor.
+</p>
+(link: http://yourthings.org/en/your-things class: btn btn-white popup: yes text: <span style="color: #44a1e0">Muhit Your Things'te <i class="ion ion-android-open u-ml10"></i></span> )
+</div>
+
+----
+
+Layoutwidth: normal

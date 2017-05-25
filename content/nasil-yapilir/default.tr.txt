@@ -1,0 +1,22 @@
+Title: Nasıl Yapılır?
+
+----
+
+Text: 
+
+### 3 basit adımda Muhtar olarak hesabı oluştur
+(file: nasil-yapilir-muhtar-girisi.pdf text: <i class="ion ion-android-list ion-15x u-floatleft u-mr10"></i>Nasıl Yapılır – Muhtar Girişi (pdf))
+<br />
+### Fikir üzerinde harekete geç
+(file: nasil-yapilir-harekete-gec.pdf text: <i class="ion ion-android-list ion-15x u-floatleft u-mr10"></i>Nasıl Yapılır – Harekete Geç (pdf))
+<br />
+### Mahallendekilere duyuru yaz
+(file: nasil-yapilir-duyuru-yazmak.pdf text: <i class="ion ion-android-list ion-15x u-floatleft u-mr10"></i>Nasıl Yapılır – Duyuru Yazmak (pdf))
+
+----
+
+Secondtext: 
+
+----
+
+Layoutwidth: normal

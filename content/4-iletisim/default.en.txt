@@ -1,0 +1,24 @@
+Title: Contact
+
+----
+
+Text: 
+
+<big class="u-inlineblock u-mb20">We would love to hear your suggestions and receive your support to improve local governance in Turkey. </big>
+Sign up to our newsletter in order to stay up-to-date with the latest developments around the building of Muhit:
+
+(mailchimp: )
+
+Or follow us on social media:
+<br /><br />
+(link: https://www.facebook.com/MuhitApp class: btn btn-blueoutline u-mr10 popup:yes text: <i class="ion ion-social-facebook u-mr10"></i> Follow ) (link: https://twitter.com/muhitapp class: btn btn-blueoutline popup:yes text: <i class="ion ion-social-twitter u-mr10"></i> Follow )
+<br /><br />
+You can email us at (email: mailto:iletisim@muhit.co text: iletisim@muhit.co).
+
+----
+
+Secondtext: 
+
+----
+
+Layoutwidth: normal

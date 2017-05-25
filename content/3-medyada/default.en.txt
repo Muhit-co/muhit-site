@@ -1,0 +1,105 @@
+Title: In the media
+
+----
+
+Text: 
+
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://www.yenidonem.com.tr/yazar/ensar-tekin/kentlerde-sosyal-medyanin-gucu/5274.html popup:yes class: u-inlineblock u-mb20 text: 
+**Yeni Dönem**
+*“Kentlerde sosyal medyanın gücü* - TR
+<small>13 March 2017</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://ekoiq.com/muhitinizde-cozumun-parcasi-olun/ popup:yes class: u-inlineblock u-mb20 text: 
+**EkoIQ**
+*“Muhit”inizde Çözümün Parçası Olun!* - TR
+<small>3 January 2017</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: medyada/muhit-izmir-life-p1.jpg popup:yes class: u-inlineblock text: 
+**İzmir Life Magazine**
+*Muhitinde söz sahibi ol!* - TR <span class="c-greyLight">[Sayfa 1/4, JPG]</span>
+<small>December 2016</small> 
+)
+<a href="http://www.izmirlife.com.tr/" target="_blank" class="u-inlineblock u-mb20" style="margin-left: 48px;"><i class="ion ion-android-arrow-forward u-mr5"></i> İzmir Life</a>
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: https://www.yenihayatgazetesi.com/muhitinizi-nasil-gormek-isterdiniz-27136 popup:yes class: u-inlineblock u-mb20 text: 
+**Yeni Hayat**
+*Muhitinizi nasıl görmek isterdiniz?* – TR
+<small>26 June 2016</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://www.nehaber.com.tr/teknoloji/mahalle-muhtarinizla-muhitco-da-bulusun-h1372.html popup:yes class: u-inlineblock u-mb20 text: 
+**ne haber?**
+*Mahalle muhtarınızla “muhit.co” da buluşun!* – TR
+<small>9 May 2016</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://www.istanbulajansi.ist/haber/mahalle-muhtariyla-muhitco-da-bulustu/51234 popup:yes class: u-inlineblock u-mb20 text: 
+**İstanbul Ajansı**
+*Mahalle muhtarıyla 'muhit.co' da buluştu* – TR
+<small>7 May 2016</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://www.gazetekadikoy.com.tr/haberDetay.aspx?haberID=8613 popup:yes class: u-inlineblock u-mb20 text: 
+**Gazete Kadıköy**
+*Mahalleler için mobil uygulama: Muhit.co* – TR
+<small>29 April 2016</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://www.yesilist.com/cms.php?u=yerel-yonetime-muhit-ile-katil-&id=2475 popup:yes class: u-inlineblock u-mb20 text: 
+**Yeşilist**
+*Yerel Yönetime MUHİT ile katıl!* – TR
+<small>8 April 2016</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://www.abibuneya.com/6262/toplum-yararina-bir-uygulama-muhit/ popup:yes class: u-inlineblock u-mb20 text: 
+**Abibuneya.com**
+*Toplum Yararına Bir Uygulama: Muhit* – TR
+<small>1 April 2016</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://www.crunchturkey.com/2015/10/05/online-mahalleniz-muhit-coya-hosgeldiniz/ popup:yes class: u-inlineblock u-mb20 text: 
+**CrunchTurkey**
+*Online mahalleniz Muhit.co’ya hoşgeldiniz* – TR
+<small>5 October 2015</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://bonpurloryan.com/2015/10/01/muhit-uygulamasiyla-yerel-yonetimlerde-soz-sahibi-olun/ popup:yes class:u-inlineblock u-mb20 text:
+**Bon Pur Loryan**
+*‘Muhit’ uygulamasıyla yerel yönetimlerde söz sahibi olun* – TR
+<small>1 October 2015</small>
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://webrazzi.com/2015/09/28/kent-sakinlerinin-taleplerini-yerel-yonetimlerle-bulusturan-muhit-co-acildi/ popup:yes class: u-inlineblock u-mb20 text: 
+**Webrazzi**
+*Kent sakinlerinin taleplerini yerel yönetimlerle buluşturan Muhit.co açıldı* – TR
+<small>28 September 2015</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://bigumigu.com/haber/muhtar-ve-mahalle-ile-bag-kurarak-yerel-yonetimi-gelistirme-platformu-muhit popup:yes class: u-inlineblock u-mb20 text: 
+**Bigumigu**
+*Muhtar ve Mahalle ile Bağ Kurarak Yerel Yönetimi Geliştirme Platformu: Muhit* – TR
+<small>21 September 2015</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://www.aa.com.tr/en/turkey/469873--new-project-digitizes-turkish-local-democracy popup:yes class: u-inlineblock u-mb20 text: 
+**Anadolu Agency**
+*New project digitizes Turkish local democracy*
+<small>24 February 2015</small> 
+)
+<div class="u-floatleft u-mr20 u-mt5 c-greyLight">(icon: ios-paper size: 2x)</div>
+(link: http://www.arkitera.com/haber/23983/mahallem-icin-what-can-i-do-sometimes_ popup:yes class: u-inlineblock u-mb20 text: 
+**Arkitera**
+*Mahallem için "What Can I Do Sometimes?"* – TR
+<small>14 January 2015</small> 
+)
+
+----
+
+Secondtext: 
+
+----
+
+Layoutwidth: normal

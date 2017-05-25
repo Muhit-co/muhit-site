@@ -1,0 +1,45 @@
+Title: About us
+
+----
+
+Text: 
+
+### Our team
+Our interdisciplinary team of urban planners, designers and software developers formed Muhit for communities to easily share their ideas for their neighbourhood.
+
+**Sera Tolgay** *(Massachusetts Institute of Technology) – Founder / Business development* <a href="https://tr.linkedin.com/pub/sera-tolgay/52/631/225" target="_blank"><i class="ion ion-social-linkedin u-ml5"></i></a>
+**Daniel Swakman** *(Delft University of Technology) – Founder / Designer* <a href="http://linkedin.com/in/ldanielswakman" target="_blank"><i class="ion ion-social-linkedin u-ml5"></i></a> <a href="http://www.ldaniel.eu" target="_blank"><i class="ion ion-link u-ml5"></i></a> <a href="https://twitter.com/ldanielswakman" target="_blank"><i class="ion ion-social-twitter u-ml5"></i></a>
+**Güney Can Gökoğlu** *(Anadolu Üniversity) – Developer* <a href="https://tr.linkedin.com/in/guneycan" target="_blank"><i class="ion ion-social-linkedin u-ml5"></i></a> <a href="https://twitter.com/gcg" target="_blank"><i class="ion ion-social-twitter u-ml5"></i></a> 
+**Gizem Çele Ocal** * (Bilgi Üniversity / University of Exeter) – Communications* <a href="https://tr.linkedin.com/in/gizem-cele-ocal-7699b718" target="_blank"><i class="ion ion-social-linkedin u-ml5"></i></a> <a href="https://twitter.com/gizemcele" target="_blank"><i class="ion ion-social-twitter u-ml5"></i></a> 
+**Tekant Gündoğan** *(Boğaziçi Üniversity) – Developer* (link: https://www.linkedin.com/in/tekantgundogan text: <i class="ion ion-social-linkedin u-ml5"></i> popup: yes)
+**Gülsen Geçim** *(Koç Üniversity) – Communications* (link: https://www.linkedin.com/in/gulsengecim text: <i class="ion ion-social-linkedin u-ml5"></i> popup: yes)
+<!-- **Ersoy Pembe** * – (Koç Üniversity) – Developer* <a href="https://tr.linkedin.com/in/ersoy-pembe-1aa96520" target="_blank"><i class="ion ion-social-linkedin u-ml5"></i></a> -->
+<br />
+
+----
+
+Secondtext: 
+
+<div class="panel" style="background-color: #4390c0">
+<div class="u-floatright">(image: mit_ideas_logo.png class: u-mt10)</div>
+(icon: ribbon-a size: 3x) 
+<div class="u-inlineblock u-ml20 u-mt20 u-mb20"><h4 style="margin-bottom: 0;">MIT Ideas Global Challenge</h4><span style="opacity: 0.5">April 2016</span></div>
+
+<p>In April 2016 Muhit participated in the MIT Ideas Global Challenge – <b>and we won!</b> 
+We are happy to be receiving such positive feedback from other people that ambition to improve the world around them, as well as a grant to develop out platform further.</p>
+(link: http://globalchallenge.mit.edu/teams/view/655 class: btn btn-blue popup: yes text: Muhit on MIT Ideas <i class="ion ion-android-open u-ml10"></i> )
+</div>
+
+<div class="panel">
+<div class="u-floatright">(image: things_logo.png class: u-mt10)</div>
+(icon: ribbon-b size: 3x)
+ <div class="u-inlineblock u-ml20 u-mt20 u-mb20"><h4 style="margin-bottom: 0;">Things Challenge</h4><span style="opacity: 0.5">January 2015</span></div>
+
+<p>Muhit was selected as one of the 6 finalists of  “Things Challenge,” organized by Techsoup Europe and Community Volunteers Foundation. Subsequently, Muhit won the public voting phase of Things Challenge, receiving a grant to launch the mobile and web apps.
+</p>
+(link: http://yourthings.org/en/your-things class: btn btn-white popup: yes text: <span style="color: #44a1e0">Muhit on Your Things <i class="ion ion-android-open u-ml10"></i></span> )
+</div>
+
+----
+
+Layoutwidth: normal

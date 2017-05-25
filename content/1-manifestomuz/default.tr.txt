@@ -1,0 +1,27 @@
+Title: Manifestomuz
+
+----
+
+Text: 
+
+## 1. Yaşadığımız yerler hakkında fikirlerimizi paylaşabilmeliyiz.
+
+Muhit, insanlarin mahalleleri, semtleri ve şehirleri hakkındaki fikirlerini paylaşarak daha katılımcı ve aktif olmasını hedefler.
+<br /><br />
+
+## 2. Mahallemiz ve yerel yönetimler arasında bir iletişim ağına sahip olabilmeliyiz.
+
+Muhit, muhtarların temsilci olarak mahallelilerle iletişimini kolaylaştırarak yerel yönetimleri destekler.
+<br /><br />
+
+## 3. Yaşadığımız yerler hakkında bilgi sahibi olarak yerel ve kentsel sorunlar hakkında kamuoyu oluşturabilmeliyiz. 
+
+Muhit, kentsel sorunlar hakkında farkındalık oluşturur ve mahallelerinin daha bilgili bir şekilde yaşadıkları yere sahip çıkarak yerel ve kentsel sorunlar hakkında kamuoyu oluşturmalarını sağlar.
+
+----
+
+Secondtext: 
+
+----
+
+Layoutwidth: normal

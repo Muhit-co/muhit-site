@@ -1,0 +1,103 @@
+Title: Terms and Conditions
+
+----
+
+Text: 
+
+MUHİT, üye olan birey (bundan sonra “Kullanıcı” olarak da anılacaktır) ve muhtarları bir araya getiren bir teknoloji platformudur (bundan sonra “Uygulama” olarak anılacaktır). MUHİT ve Kullanıcı, birlikte “Taraflar” olarak da anılacaktır.
+
+
+**1. BAŞVURU VE ÜYELİK**
+**1.1** Kullanıcı, Uygulama’yı indirip, kayıt için gerekli olan bölümleri doldurup e–posta adresi onaylandıktan sonra şifresini girerek, işbu Koşullar dâhilinde Uygulama’yı kullanmaya başlayabilir.
+**1.2 **Kullanıcı, başvuru esnasında verdiği tüm bilgilerin daima ve her bakımdan eksiksiz, gerçeğe uygun ve güncel olduğunu kabul eder. Kullanıcı, her zaman kişisel bilgilerini Uygulama aracılığıyla güncelleyebilir.
+**1.3 **Kullanıcı, Uygulama kapsamında paylaştığı kişisel bilgilerin Uygulama’nın hizmetlerinin verilebilmesi için Uygulama’ya bağlı kişilerle veya ilgili 3.kişilerle paylaşılmasına izin verir.
+**1.4** Uygulama’nın kullanımı ücretsizdir.
+
+
+**2. UYGULAMANIN KULLANIMI VE KULLANICI SORUMLULUKLARI**
+**2.1** Kullanıcı, Uygulama’ya kayıt olup Uygulama’yı açtıktan sonra “Fikir Ekle” butonuna tıkladığında, Uygulama aracılığıyla oluşturacağı önerisini (bundan sonra “Fikir” olarak anılacaktır) bir başlık, açıklama, fotoğraf, etiketler ve coğrafi konumu girerek diğer kullanıcıların göreceği şekilde paylaşır. 
+**2.2** Kullanıcı oluşturduğu “Fikir”in içeriğinde sadece belediyeler tarafından çözülebilecek kent düzenlenmesine ilişkin sorunlar konusunda önerilerde bulunabileceğini kabul eder.  
+**2.3 **Kullanıcı oluşturduğu “Fikir”in içeriğinde hiçbir şekilde ticari içerik (reklam ve spam gibi) yayınlayamaz, MUHİT'i propaganda aracı olarak kullanamaz, önceden MUHİT’ten izin almadan otomatik araçlar (adres toplama botları, robotlar, spider ya da kazıyıcılar) kullanarak diğer kullanıcılara ait içerikleri veya bilgileri toplamayaz, virüs ya da başka kötü niyetli kodlar yüklemeyez, başka birisine ait giriş bilgilerini isteyemez veya başka birisinin hesabına erişemez, herhangi bir diğer kullanıcıyı rahatsız, tehdit ya da taciz edemez, nefret söylemi veya küfür içeren, tehditkar veya pornografik nitelikli ya da şiddete teşvik eden, çıplaklık ya da herhangi bir şekilde şiddet içeren herhangi bir içerik yayınlamayaz.
+**2.4 **Kullanıcının oluşturduğu “Fikir”in  2.2 maddesindeki kapsama dahil olmaması ve 2.3 maddesini ihlal etmesi durumunda, MUHİT Kullanıcı’yı uyarma, uyarıdan sonra "Fikir" hakkında talep edilen düzeltme yapılmadığı takdirde "Fikir" oluşturulduğu gün dahil olmak üzere bir hafta içerisinde silme, ve benzer nitelikte tekrar "Fikir" oluşturulması halinde Kullanıcı'yı Uygulama’dan çıkarma hakkını saklı tutar. 
+**2.5 **Kullanıcı bu aşamadan sonra oluşturduğu “Fikir”  başvurusunun çözümlenmek üzere muhtara veya ilgili belediye görevlilerine iletileceğini kabul eder.
+**2.6** Kullanıcı oluşturduğu “Fikir”leri “Fikirlerim” bölümünde bir arada görebilir ve oluşturduğu “Fikir”in altına muhtar tarafından eklenen yorumlar gelişimini takip edebilir.
+**2.7** Kullanıcı beğendiği “Fikir”leri “Destekle” butonu ile destek sayısını sadece bir kere arttırabilir ve “Desteklediklerim” bölümünde tüm desteklediği fikirleri bir arada görebilir. 
+**2.8 **Kullanıcı istediği zaman desteklediği bir “Fikir”den desteğini geri çekebilir. 
+**2.9** Akıllı cep telefonunuzun çalınması veya kaybedilmesi veya herhangi bir şekilde söz konusu akıllı telefonun zilyetliğinin tarafınızda olmaması halinde MUHİT’e bildirimde bulunarak girilen bilgilerin silinmesini talep etmeniz gerekmektedir. Söz konusu bilgilendirmenin yapılmaması ve üçüncü şahısların uygulamayı kullanmaya devam etmesi halinde MUHİT sorumlu tutulamaz. 
+**2.10** Kullanıcı, Uygulama aracılığıyla muhattap olduğu ve şikâyetçi olduğu kullanıcıları, MUHİT’e iletebilir fakat MUHİT, kullanıcıların davranışlarından herhangi bir şekilde sorumlu tutulamaz. 
+**2.11** Kullanıcı, MUHİT’in ücretsiz olarak sunduğu hizmeti istismar edebilecek herhangi bir işlem ve/veya eylemde bulunmamayı kabul eder. 
+**2.12** Kullanıcı’nın işbu belirtilen Koşullar’a aykırı davrandığının tespiti halinde, MUHİT Kullanıcı’nın üyeliğini askıya alma veya Uygulama’dan tamamen çıkarma hakkını saklı tutar. 
+**2.13** MUHİT’in sunduğu hizmetten yararlanan Kullanıcı, Uygulama’yı hukuka ve amacına uygun şekilde kullanmayı ve Uygulama dahilinde yaptığı her işlem ve eylemdeki hukuki sorumluluğunun kendisine ait olduğunu kabul eder. Kullanıcı’nın Uygulama aracılığıyla ve/veya dahilinde, işbu Koşullar’a ve hukuka aykırı olarak gerçekleştirdiği herhangi bir işlem, eylem ve/veya faaliyetleri nedeniyle MUHİT doğrudan veya dolaylı olarak hiçbir şekilde sorumlu tutulamaz. 
+**2.14 **Kullanıcı, Uygulama aracılığıyla ve/veya Uygulama dahilinde, işbu Koşullar’a ve hukuka aykırı olarak kullanıcılar ya da üçüncü kişiler tarafından gerçekleştirilen herhangi bir işlem, eylem ve/veya faaliyetleri nedeniyle MUHİT’in doğrudan veya dolaylı olarak hiçbir şekilde sorumlu tutulamayacağını kabul eder. 
+**2.15 **Kullanıcı, Uygulama aracılığıyla MUHİT tarafından sunulan hizmetlerden yararlanabilmek amacıyla kullandığı sistem erişim araçlarının (kullanıcı ismi, şifre v.b.) güvenliği, saklanması, üçüncü kişilerin bilgisinden uzak tutulması ile ilgili tüm sorumluluğun tamamen kendisine ait olduğunu kabul eder. 
+**2.16** Kullanıcı, Uygulama dahilinde bulunan, MUHİT ve/veya başka bir üçüncü şahsın ayni veya şahsi haklarına, malvarlığına tecavüz teşkil edecek nitelikteki resimleri, metinleri, görsel ve işitsel imgeleri, video kliplerini, dosyaları, veritabanlarını, katalogları ve listeleri çoğaltmayacağını, kopyalamayacağını, dağıtmayacağını, işlemeyeceğini kabul eder.
+
+
+**3. SONA ERME**
+**3.1** Kullanıcı, üyeliğini istediği anda sebep göstermeksizin, Profilim bölümünden “Üyeliğimi İptal Etmek İstiyorum” düğmesine basarak ve giriş bilgilerini tekrar girerek üyeliğini iptal edebilir. 
+**3.2** Uygulamanın Kullanımı ve Kullanıcı Sorumlulukları kapsamındaki sorumluluklar, Kullanıcı üyeliğini iptal ettikten sonra da devam eder.  
+
+
+**4. GİZLİLİK POLİTİKASI**
+Muhit kullanıcıya ait gizli bilgileri, işbu Koşulların kapsamı dışında, ancak Veri Güvenliği Politikası'nda (hyperlink) belirtilen koşullar dahilinde üçüncü kişilere açıklayabilir veya kullanabilir.
+
+
+**5. DİĞER ŞARTLAR**
+**5.1 FİKRİ MÜLKİYET HAKLARI**
+**5.1.1** Uygulamanın tasarım, metin, imge, html kodu ve diğer kodlar da dahil ve fakat bunlarla sınırlı olmamak kaydıyla, tüm unsurları ( bundan böyle “MUHİT'in telif haklarına tabi çalışmalar” olarak anılacaktır) MUHİT’ye aittir. Kullanıcı MUHİT fonksiyonlarını, MUHİT bilgilerini ve MUHİT'in telif haklarına tabi çalışmalarını ticari amaçla kullanamaz. Kullanıcı MUHİT'in izni olmaksızın, MUHİT’in telif haklarına tabi çalışmalarını çoğaltamaz, dağıtamaz veya bunlardan türemiş çalışmalar yapamaz veya hazırlayamaz.  
+**5.1.2 **MUHİT'in; MUHİT fonksiyonlarını, MUHİT bilgileri, MUHİT telif haklarına tabi çalışmaları, MUHİT ticari markaları, MUHİT ticari görünümü veya Uygulama vasıtasıyla sahip olduğu her tür maddi ve fikri mülkiyet hakları da dahil tüm malvarlığı, ayni ve şahsi hakları, ticari bilgi ve know-how'a yönelik tüm hakları saklıdır.
+**5.2. SÖZLEŞME DEĞİŞİKLİKLERİ**
+MUHİT, tamamen kendi takdirine bağlı ve tek taraflı olarak, sözleşmeyi, uygun göreceği herhangi bir zamanda, Uygulama üzerinden ilan ederek değiştirebilir. İşbu Koşulların değişen hükümleri, ilan edildikleri tarihte veya sonrasında, Kullanıcı tarafından Uygulama üzerinden on-line kabul edilmesi ile geçerlilik kazanacak, geri kalan hükümler aynen yürürlükte kalarak hüküm ve sonuçlarını doğurmaya devam edecektir.
+**5.3. MÜCBİR SEBEPLER**
+Hukuken mücbir sebep sayılan tüm durumlarda MUHİT, işbu Koşullar ile belirlenen edimlerinden herhangi birini geç veya eksik ifa etme veya ifa etmeme nedeniyle yükümlü değildir. Bu ve bunun gibi durumlar, MUHİT için, gecikme, eksik ifa etme veya ifa etmeme veya temerrüt addedilmeyecek veya bu durumlar için MUHİT'den herhangi bir nam altında tazminat talep edilemeyecektir. "Mücbir sebep" terimi; doğal afet, isyan, savaş, grev, iletişim sorunları, altyapı ve internet arızaları, elektrik kesintisi ve kötü hava koşulları da dahil ve fakat bunlarla sınırlı olmamak kaydıyla; ilgili tarafın makul kontrolü haricinde ve MUHİT'in gerekli özeni göstermesine rağmen önleyemediği, kaçınılamayacak olaylar olarak yorumlanacaktır.
+**5.4. UYGULANACAK HUKUK VE YETKİ**
+ İşbu Koşullar’ın uygulanmasında, yorumlanmasında ve işbu Koşullar dahilinde doğan hukuki ilişkilere Türk Hukuku uygulanacak ve İşbu Koşullar dahilinde ve/veya bunlarla bağlantılı olarak doğan veya doğabilecek her türlü ihtilafın varlığı halinde İstanbul Merkez Mahkemeleri ve İcra Daireleri yetkilidir.
+**5.5. SÖZLEŞMENİN FESHİ**
+İşbu Koşullar, Kullanıcı’nın üyeliği sona erinceye kadar yürürlükte kalacak ve Taraflar arası hüküm ve sonuçlarını doğurmaya devam edecektir. MUHİT, Kullanıcı’nın bu Koşullar dahilinde belirtilen hükümlere ve Uygulama içinde yer alan kullanıma, üyeliğe ve MUHİT Hizmetleri'ne ilişkin benzeri kurallara aykırı hareket etmesi durumunda; sözleşmeyi tek taraflı olarak feshedebilecektir.
+**5.6. MUHİT’NİN KAYITLARININ GEÇERLİLİĞİ**
+Kullanıcı, bu Koşullar dahilinde doğabilecek ihtilaflarda, MUHİT'in kendi veritabanında veya sunucularında tuttuğu elektronik kayıtların ve sistem kayıtlarının, ticari kayıtlarının, defter kayıtlarının, mikrofilm, mikrofiş ve bilgisayar kayıtlarının muteber, bağlayıcı, kesin ve münhasır delil teşkil edeceğini; MUHİT'yi yemin teklifinden ari kıldığını ve bu maddenin HMK 193. madde anlamında delil sözleşmesi niteliğinde olduğunu kabul eder.
+**5.7. YÜRÜRLÜK**
+İşbu sözleşme üyenin elektronik olarak onay vermesi ile karşılıklı olarak kabul edilerek yürürlüğe girmiştir.
+
+
+**VERİ GÜVENLİĞİ POLİTİKASI**
+Bu bölüm MUHİT Mobil Uygulamasını kullananan Kullanıcıların kişisel bilgileri ile ilgili politikasını açıklar.
+
+**1. MUHİT hangi bilgileri toplar?**
+- Tanımlama bilgileri (ad, soyad, e-posta adresi).
+- Kullandığınız mobil aygıtın işletim sistemi versiyonu bilgisi.
+- Uygulama içindeki "FİKİR EKLE" butonu ile oluşturulan önerileri ve ilgili açıklama, yer bilgisi, etiketler, fotoğraflar.
+- Uygulama içindeki "Sorunlar ve Öneriler" bölümünde iletilen yorumlar.
+
+**2. MUHİT bu bilgileri hangi amaçla kullanır?** 
+- Kimliğinizi doğrulamak ( vermiş olduğunuz cep telefonu numarasına doğrulama kodu gönderme vasıtasıyla).
+- Kullanıcı desteği sağlamak ve sorun gidermek.
+- Kullandığınız mobil aygıttan edinilen konum bilgileri.
+- Uygulama ile ilgili gelişmeler hakkında sizi bilgilendirmek.
+- Muhtarın veya belediye çalışanlarının raporlanan fikri teyit etme, doğru bilgi alma ve çözümleme durumunda size ulaşabilmesi için (Bu konuyu istismar eden şahıslar sistemimizden çıkarılmaktadır).
+
+**3. Kişisel bilgilerin paylaşımı**
+3.1 MUHİT, sadece Uygulamanın sağladığı katılımcı şehircilik işlevini yerine getirmek ve başvurulan “FİKİR”leri çözümlemek için kullanıcıya ait bilgileri, muhtar veya ilgili belediye görevlileri dahil olmak üzere, üçüncü kişilere açıklayabilir veya kullanabilir.
+3.2 MUHİT, ilgili yasalar gereği yükümlü olmadıkça veya yetkili makamlar tarafından istenmedikçe kişisel verileri ve/veya iletişim içeriğini sizin açık izniniz olmadan satmaz, kiralamaz, pazarlamaz veya başka şekilde aktarmaz.
+3.3 MUHİT, yasal gereklilikleri karşılamak, yasal haklarımız doğrultusunda hareket etmek veya yasal hak taleplerine karşı kendini savunmak, MUHİT’in menfaatlerini korumak, dolandırıcılığa karşı mücadele etmek ve ilkelerimizi uygulamak ya da herhangi bir kişinin haklarını, malını veya güvenliğini korumak için kişisel bilgileri ilgili yasal makamlara gelen yasal istek doğrultusunda açıklayabilir.
+
+**4. Verilerin Saklanması**
+Verileriniz güvenli sunucularımızda saklanmaktadır. Uygulamaya sizin belirlemiş olduğunuz şifre ile erişebilirsiniz ve şifreler sistemimizde geri çevrilemeyecek şekilde kodlanmış olarak tutulur. Şifrenizi güvende tutmak ve paylaşmamanız sizin sorumluluğunuzdadır. Ancak bilgilerin aktarılmasının halka açık internet üzerinden yapılmasının %100 güvenli olduğunun garantisi verilemez. Verilerinizi korumak için şifrelenmiş bağlantı kullanmaktayız, fakat veri aktarım sırasında internet bağlantınıza yapılan saldırıların riski sizin üzerinizdedir. Bilgileriniz sunucularımıza ulaştıktan sonra korunması ile ilgili her türlü güvenlik önlemi tarafımızca alınır.
+
+**5. Bilgilerinize ulaşmanız ve güncellemeler**
+Sistemimizde tutulan bilgilerinizin kopyasını başvurmanız durumunda gerekli güvenlik kontrolu yapıldıktan sonra sizinle paylaşabiliriz. Bazı bilgilerinizi uygulama ya da websitesi üzerinde güncelleyebilirsiniz.
+
+**6. Cookie (çerez)’ler ve cihazlarda tutulan bilgiler**
+Servisimizi daha hızlı ve etkin bir şekilde kullanabilmeniz için oturum cookie (çerez)’lerini cihazınızda saklamaktayız. Dilerseniz bu bilgilerin tutulmasını cihaz ayarlarınızda yapacağınız değişiklikle engelleyebilirsiniz. Ancak bunu yapmanız durumunda MUHİT’in tüm fonksiyonlarından yararlanamayabilirsizniz. Gizlilik Politikası üzerinde zaman zaman değişiklik yapmak hakkımızı saklı tutarız. Herhangi bir değişiklik yapmamız durumunda bununla ilgili bilgi tarafınıza verilecektir. Bu Gizlilik Politikası dokümanı en son 1 Ağustos 2015 tarihinde güncellenmiştir.
+
+----
+
+Secondtext: 
+
+----
+
+Layoutwidth: normal
+
+----
+
+Url-key: kullanim-kosullari

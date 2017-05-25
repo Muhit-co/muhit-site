@@ -1,0 +1,33 @@
+Title: Nasıl Çalışıyor?
+
+----
+
+Text: 
+
+<i class="ion ion-iphone ion-3x u-floatleft ion-fw u-mr10 u-mb20"></i>
+<h4>Fikir Yarat</h4>
+<p class="u-mb20">Mahalleni geliştirmek için kolayca önerilerini paylaşabilirsin. İstersen bunu anonim olarak yapabilirsin.</p>
+
+<i class="ion ion-person-stalker ion-3x u-floatleft ion-fw u-mr10"></i>
+<h4>Beğendiğin Fikirleri Destekle</h4>
+<p class="u-mb20">Mahallenin uygulanmasını istediği fikirler öncelikli projeler olarak ilgili kurumlara iletilir.</p>
+
+<i class="ion ion-speakerphone ion-3x u-floatleft ion-fw u-mr10"></i>
+<h4>Mahallenden Haberdar Ol</h4>
+<p class="u-mb20">Muhtardan ve belediyeden gelen duyurulara kolayca erişebilirsin.</p>
+
+<i class="ion ion-paper-airplane ion-3x u-floatleft ion-fw u-mr10"></i>
+<h4>Muhtarına Kolayca Ulaş</h4>
+<p class="u-mb20">Muhtarının ve  ilgili belediye kurumlarının iletişim bilgilerine kolayca ulaşabilirsin.</p>
+
+----
+
+Secondtext: 
+
+<div class="u-aligncenter">
+(image: muhit-system-diagram.png)
+</div>
+
+----
+
+Layoutwidth: normal

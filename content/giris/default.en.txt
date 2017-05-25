@@ -1,0 +1,20 @@
+Title: Intro
+
+----
+
+Text: 
+
+# It's in your hands to change your neighbourhood.
+
+### Share your ideas, support the ones you like, and see them implemented.
+
+(link: #muhit-nedir class: btn btn-outline text: About Muhit <i class="ion ion-arrow-down-c u-ml10"></i> )
+(link: #hakkimizda class: btn btn-small u-mr10 u-mv10 btn-primary text: <i class="ion ion-ribbon-b"></i> Winners of Things Challenge 2014 <i class="ion ion-arrow-down-c u-ml10"></i> )
+
+----
+
+Secondtext: (image: mockup-main.png class: u-aligncenter)
+
+----
+
+Layoutwidth: small

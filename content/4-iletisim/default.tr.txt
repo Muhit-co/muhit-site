@@ -1,0 +1,24 @@
+Title: İletişim
+
+----
+
+Text: 
+
+<big class="u-inlineblock u-mb20">Türkiye'de yerel yönetimleri ve mahallelerimizi geliştirmek için önerinizi ve desteğinizi bekliyoruz.</big>
+Gelişmelerden haberdar olmak için e-postanız ile Newsletter'ımıza kayıt olabilirsiniz.
+(mailchimp: )
+<br />
+Ya da Sosyal Medya'dan bizi takip edebilirsiniz:
+<br /><br />
+(link: https://www.facebook.com/MuhitApp class: btn btn-blueoutline u-mr10 popup:yes text: <i class="ion ion-social-facebook u-mr10"></i> Takip et )
+(link: https://twitter.com/muhitapp class: btn btn-blueoutline popup:yes text: <i class="ion ion-social-twitter u-mr10"></i> Takip et )
+<br /><br />
+Bize (email: mailto:iletisim@muhit.co text: iletisim@muhit.co) adresine yazarak ulaşabilirsiniz.
+
+----
+
+Secondtext: 
+
+----
+
+Layoutwidth: normal

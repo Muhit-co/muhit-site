@@ -1,0 +1,25 @@
+Title: Raporlar
+
+----
+
+Text: 
+
+<div id="besiktas"></div>
+### Beşiktaş Belediye Raporu
+*18 Ekim 2016*
+(image: besiktas-idea-report.jpg link: besiktas-idea-report.pdf popup: yes class: u-border u-inlineblock)
+
+ 
+ 
+<div id="kadikoy"></div>
+### Kadıköy Belediye Raporu
+*20 Eylül 2016*
+(image: kadikoy-idea-report.jpg link: kadikoy-idea-report.pdf popup: yes class: u-border u-inlineblock)
+
+----
+
+Secondtext: 
+
+----
+
+Layoutwidth: normal
