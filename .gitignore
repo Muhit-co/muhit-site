@@ -1,5 +1,58 @@
 # Elastic Beanstalk Files
+# ---------------
+
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 /site/accounts
+
+
+# Temporary files
+# ---------------
+
+/thumbs/*
+!/thumbs/index.html
+
+/site/cache/*
+!/site/cache/index.html
+
+
+# Error logs (server)
+# ------------
+
+error_log
+email.log
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Kirby accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/index.html
+
+# Avatars
+# ---------------
+
+/assets/avatars/*
+!/assets/avatars/index.html
+
+# Sublime files (local)
+# ------------
+
+Icon
+.DS_Store
+
+# Sublime files (local)
+# ---------------
+
+*.sublime-project
+*.sublime-workspace
+
+
+# Node modules (local)
+# ---------------
+
+/node_modules/
