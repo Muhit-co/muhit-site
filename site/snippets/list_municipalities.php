@@ -41,14 +41,14 @@
     $il_code = '';
     foreach ($il as $key2 => $ilce) :
       if ($key2 == 'il') :
-        $il_name = ucwords(mb_strtolower($ilce['belediye-ismi']));
+        $il_name = $ilce['belediye-ismi'];
         $il_code = ' <span class="c-greyLight">(' . $ilce['plaka'] . ')</span>';
       else :
       ?>
 
         <div class="item col-xs-12 col-sm-6 col-md-4">
           <div class="card">
-            <? $ilce_name = ucwords(mb_strtolower($ilce['belediye-ismi'])) ?>
+            <? $ilce_name = $ilce['belediye-ismi'] ?>
             <h4 data-type="district" title="Belediye İsmi" style="margin: 0;"><?= $ilce_name ?></h4>
             <p data-type="city" title="İl İsmi" style="margin: 0 0 5px;" class="c-grey"><?= $il_name ?></p>
 
