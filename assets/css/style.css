@@ -614,8 +614,18 @@ section#iletisim a:not(.btn):hover {
 
 /* --- footer --- */
 footer {
+	padding: 50px 0;
 	background-color: #143040;
 	color: #fff;
+}
+footer .play-store-badge {
+	max-height: 3rem;
+}
+footer .play-store-badge:hover .st10 {
+	fill:rgba(0,0,0,0.3);
+}
+footer .play-store-badge:active .st10 {
+	fill:rgba(0,0,0,0.4);
 }
 
 

@@ -2,7 +2,7 @@ Title: MUHIT
 
 ----
 
-Author: Sera Tolgay, L Daniel Swakman, Ece Ömür, Güney Can Gökoğlu
+Author: Sera Tolgay, L Daniel Swakman, Gizem Çele Öcal, Güney Can Gökoğlu
 
 ----
 
@@ -14,7 +14,12 @@ Keywords: muhitmahalle,yerel yonetim,muhtar,belediye,iyilestirmek,fikir,fikirler
 
 ----
 
-Copyright: <p  style="max-width: 100%;">Built by (link: http://ldaniel.eu text: ldaniel.eu popup: yes) with (link: http://getkirby.com text: Kirby popup: yes)</p>
+Copyright: 
+
+<div style="opacity: 0.5;">
+&copy; Muhit (date: Year)<br>
+<small>Built (link: http://ldaniel.eu text: ldaniel.eu popup: yes) with (link: http://getkirby.com text: Kirby popup: yes)</small>
+</div>
 
 ----
 
